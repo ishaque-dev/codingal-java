@@ -1,5 +1,5 @@
-package lesson2;
-class Main {
+
+class APCSAM1L2A1 {
     public static void main(String[] args) {
         int a = 10;
         int b = 5;
@@ -27,10 +27,12 @@ class Main {
         System.out.println(magic);
 
         System.out.println(
-            "Addition: " + (a + b) +
-            " Subtraction: " + (a - b) +
-            " Multiplication: " + (a * b) +
-            " Division: " + (a / b)
-        );
+                "Addition: " + (a + b) +
+                        " Subtraction: " + (a - b) +
+                        " Multiplication: " + (a * b) +
+                        " Division: " + (a / b));
+
     }
+
+   
 }

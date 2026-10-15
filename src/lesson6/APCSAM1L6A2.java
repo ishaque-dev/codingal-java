@@ -1,8 +1,6 @@
-package lesson6;
-
 import java.util.Scanner;
 
-class Main{
+public class APCSAM1L6A2 {
     public static void main(String[] args) {
         try (Scanner scn = new Scanner(System.in)) {
             // What to enter:
@@ -11,13 +9,13 @@ class Main{
             System.out.print("Enter a number (n): ");
             int n = scn.nextInt();
 
-            for(int div = 2; div * div <= n; div++){
-                while(n % div == 0){
+            for (int div = 2; div * div <= n; div++) {
+                while (n % div == 0) {
                     n = n / div;
                     System.out.print(div + " ");
                 }
             }
-            if(n != 1){
+            if (n != 1) {
                 System.out.print(n);
             }
         }
